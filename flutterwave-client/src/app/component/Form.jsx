@@ -20,8 +20,8 @@ const Form = () => {
     const config = {
         public_key: 'FLWPUBK_TEST-4e284725134b4a15fff07c61ca2b288f-X',
         tx_ref: Date.now(),
-        amount: 100,
-        currency: 'NGN',
+        amount: 50,
+        currency: 'USD',
         payment_options: 'card,mobilemoney,ussd',
         customer: {
             email: formData.email,

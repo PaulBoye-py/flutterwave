@@ -28,6 +28,7 @@ app.get('/verify-payment', async (req, res) => {
         ) {
             // Success! Confirm the customer's payment
             res.status(200).json({ success: true, message: 'Payment verified successfully' });
+            console.log('Payment verified successfully', transaction_id)
         } else {
             // Inform the customer their payment was unsuccessful
             res.status(400).json({ success: false, message: 'Payment verification failed' });
