@@ -31,7 +31,7 @@ const Form = () => {
         customizations: {
           title: 'Empathy Sapce Therapy Session',
           description: 'Payment for items in cart',
-          logo: 'https://st2.depositphotos.com/4403291/7418/v/450/depositphotos_74189661-stock-illustration-online-shop-log.jpg',
+          logo: 'https://emapathy-therapists.s3.amazonaws.com/empathy-therapists/favicon.png',
         },
     }
 
